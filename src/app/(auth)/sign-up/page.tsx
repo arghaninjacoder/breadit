@@ -4,7 +4,7 @@ import { ChevronLeft } from "lucide-react"
 
 import { cn } from "@/src/lib/utils"
 import { buttonVariants } from "@/components/ui/Button"
-import SignIn from "@/components/SignIn"
+import SignUp from "@/components/SignIn"
 
 const page: FC = () => {
   return (
@@ -21,7 +21,7 @@ const page: FC = () => {
           Home
         </Link>
 
-        <SignIn />
+        <SignUp />
       </div>
     </div>
   )
